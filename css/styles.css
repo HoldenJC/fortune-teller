@@ -1,0 +1,48 @@
+#card-header2, #card-header3, #card-header4, #card-body2, #card-body3, #card-body4 {
+  display: none;
+}
+
+#form1, #form2, #form3 {
+  /* text-align: center; */
+  /* justify-content: center; */
+}
+
+.background {
+
+  background-position: bottom;
+  background-repeat: no-repeat;
+  overflow: visible;
+  height: 100vh;
+  min-height: 100%;
+  margin: 0 auto;
+  /* transition: 0.5s linear all; */
+}
+
+.background1 {
+  background-image: url("https://static1.squarespace.com/static/5645ffa7e4b040eb3150ad92/t/566c7eb3816924918c7e3b79/1449956478169/3DCrystal_ball.png");
+}
+.background2 {
+  background-image: url("https://www.stickpng.com/assets/images/5a5a8b8b14d8c4188e0b08e7.png");
+  background-size: 400px auto;
+}
+.background3 {
+  background-image: url("http://www.pngmart.com/files/3/Gandalf-Transparent-PNG.png");
+  background-size: 400px auto;
+}
+.background4 {
+  background-image: url("https://i.imgur.com/4ltif7f.png");
+  background-size: 400px auto;
+}
+
+
+.card {
+  height: 280px;
+  width: 400px;
+}
+
+#jumbo {
+  text-align: center;
+  padding: 30px !important;
+  background-color: #007bff;
+  color: white;
+}

@@ -5,11 +5,61 @@
     <script src="js/jquery-3.4.1.js"> </script>
     <script src = "js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title></title>
   </head>
   <body>
+    <div class="container">
+      <div class="background background1">
+      <div class="jumbotron" id="jumbo"><h1>Fortune Teller</h1></div>
 
+      <div class="card border-primary mb-3 mx-auto">
+        <div id="card-header1" class="card-header">Do you feel lucky, punk?</div>
+        <div id="card-body1" class="card-body text-primary">
+      <form id="form1" action="index.html" method="post">
+        <input type="checkbox" name="lucky" value="">question1 <br>
+        <input type="checkbox" name="lucky" value="">question2 <br>
+        <input type="checkbox" name="lucky" value="">question3 <br>
+        <input type="checkbox" name="lucky" value="">question4 <br>
+        <input type="checkbox" name="lucky" value="">question5 <br><br>
+        <button type="submit" name="button">submit</button>
+      </form>
+    </div>
+
+      <div id="card-header2" class="card-header">How lucky are you at being unlucky?</div>
+      <div id="card-body2" class="card-body text-primary">
+      <form id="form2" action="index.html" method="post">
+        <input type="checkbox" name="unlucky" value="">question1 <br>
+        <input type="checkbox" name="unlucky" value="">question2 <br>
+        <input type="checkbox" name="unlucky" value="">question3 <br>
+        <input type="checkbox" name="unlucky" value="">question4 <br>
+        <input type="checkbox" name="unlucky" value="">question5 <br><br>
+        <button type="submit" name="button">submit</button>
+      </form>
+    </div>
+
+      <div id="card-header3" class="card-header">Hmmmm.... Interesting</div>
+      <div id="card-body3" class="card-body text-primary">
+      <form id="form3" action="index.html" method="post">
+        <input type="checkbox" name="interesting" value="">question1 <br>
+        <input type="checkbox" name="interesting" value="">question2 <br>
+        <input type="checkbox" name="interesting" value="">question3 <br>
+        <input type="checkbox" name="interesting" value="">question4 <br>
+        <input type="checkbox" name="interesting" value="">question5 <br><br>
+        <button type="submit" name="button">submit</button>
+      </form>
+      </div>
+      <!-- <button onclick="testResults()" id="finalButton" name="button">test</button> -->
+      <div id="card-header4" class="card-header">Results</div>
+      <div id="card-body4" class="card-body text-primary">
+      <div class="results">
+        <span id="results1"></span>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
   </body>
 </html>
